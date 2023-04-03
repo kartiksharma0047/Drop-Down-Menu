@@ -12,6 +12,10 @@ header{
     color: white;
     margin: 2px 0px;
 }
+header a{
+    text-decoration: none;
+    color: white;
+}
 header h1{
     font-size: 33px;
     padding: 10px 2%;
@@ -42,12 +46,13 @@ header h1{
 }
 #down li{
     list-style-type: none;
-    margin: 3px auto;
+    margin: 2px auto;
     background-color: rgb(146, 34, 34);
+    padding: 5px 10px;
 }
 .content ul{
     display: None;
-    background-color: rgb(58, 99, 223);
+    /* background-color: rgb(58, 99, 223); */
     width:250px;
     height: 50px;
     text-align: left;
@@ -62,23 +67,23 @@ header h1{
     display: block;
     position: absolute;
     top: 20px;
-    left:208px;
+    left:188px;
 }
 #nd:hover #harry ul{
     display: block;
     position: absolute;
     top: 20px;
-    left:208px;
+    left:188px;
 }
 #rd:hover #fast ul{
     display: block;
     position: absolute;
     top: 20px;
-    left:208px;
+    left:188px;
 }
 #th:hover #golmaal ul{
     display: block;
     position: absolute;
     top: 20px;
-    left:208px;
+    left:188px;
 }
