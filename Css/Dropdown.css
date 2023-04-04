@@ -47,21 +47,32 @@ h1{
     top: 18px;
     right: -250px;
     width: 250px;
-    background-color: royalblue;
 }
 .content li{
     padding: 10px 5px;
+    margin: 2px 0px;
+    background-color: royalblue;
+    transition-duration:0.3s ;
 }
 #drop{
     display: none;
     position: absolute;
-    background-color: rgb(145, 3, 3);
-    top: 44px;
+    top: 43px;
     right: -28px;
     width: 160px;
+    text-align: center;
+}
+#drop li{
+    transition-duration: 0.3s;
 }
 .dropdown{
     padding: 9px 0px;
+    background-color: rgb(169, 32, 32);
+    margin: 1px 0px;
+}
+.dropdown i{
+    font-size: 15px;
+    padding: 0px 3px;
 }
 #dropdown1:hover #drop{
     display: block;
@@ -83,5 +94,5 @@ h1{
 }
 .content li:hover{
     background-color: black;
-    width:250px ;
+    width:240px ;
 }
