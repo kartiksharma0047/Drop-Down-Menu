@@ -17,6 +17,8 @@ header a{
     color: white;
     font-weight: 400;
     text-decoration: none;
+    display: block;
+    width: 100%;
 }
 h1{
     font-size: 32px;
@@ -80,16 +82,8 @@ h1{
 .dropdown:hover{
     background-color: black;
 }
-#type1:hover #page1{
-    display: block;
-}
-#type2:hover #page2{
-    display: block;
-}
-#type3:hover #page3{
-    display: block;
-}
-#type4:hover #page4{
+
+.dropdown:hover > .content{
     display: block;
 }
 .content li:hover{
