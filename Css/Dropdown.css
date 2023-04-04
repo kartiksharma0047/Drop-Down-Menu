@@ -1,89 +1,87 @@
 *{
-    padding: 0%;
     margin: 0%;
+    padding: 0%;
 }
 header{
     display: flex;
+    background-color: rgb(169, 32, 32);
     justify-content: space-between;
-    background-color: rgb(185, 19, 19);
+    padding: 0px 2%;
+    text-align: center;
+    margin-top: 2px;
     font-family: roboto;
     font-weight: 500;
-    text-align: center;
     color: white;
-    margin: 2px 0px;
 }
 header a{
-    text-decoration: none;
     color: white;
+    font-weight: 400;
+    text-decoration: none;
 }
-header h1{
-    font-size: 33px;
-    padding: 10px 2%;
+h1{
+    font-size: 32px;
+}
+#menu{
+    display: flex;
+}
+#menu .click{
+    position: relative;
+    list-style-type: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition-duration: 0.3s;
+}
+.fa-chevron-down{
+    margin: 0px 5px;
+    font-size: 18px;
+}
+#menu .click:hover{
+    background-color: black;
+}
+.content{
+    display: none;
+    text-align: left;
+    list-style-type: none;
+    color: black;
+    position: absolute;
+    top: 18px;
+    right: -250px;
+    width: 250px;
+    background-color: royalblue;
+}
+.content li{
+    padding: 10px 5px;
 }
 #drop{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    font-weight: 400;
-    padding-right: 2%;
-    position: relative;
-}
-#drop li{
-    transition-duration: 0.2s;
-    font-size: 19px;
-    padding: 18px 20px;
-}
-#movies p i{
-    padding:0px 3px;
-    font-size: 16px;
-}
-#drop .click:hover{
-    background-color: black;
-    color: rgb(244, 244, 244);
-}
-#down{
     display: none;
-}
-#down li{
-    list-style-type: none;
-    margin: 2px auto;
-    background-color: rgb(146, 34, 34);
-    padding: 5px 10px;
-}
-.content ul{
-    display: None;
-    /* background-color: rgb(58, 99, 223); */
-    width:250px;
-    height: 50px;
-    text-align: left;
-}
-#drop li:hover #down{
-    display: block;
     position: absolute;
-    top: 56px;
-    left: 90px;
+    background-color: rgb(145, 3, 3);
+    top: 44px;
+    right: -28px;
+    width: 160px;
 }
-#st:hover #john ul{
-    display: block;
-    position: absolute;
-    top: 20px;
-    left:188px;
+.dropdown{
+    padding: 9px 0px;
 }
-#nd:hover #harry ul{
+#dropdown1:hover #drop{
     display: block;
-    position: absolute;
-    top: 20px;
-    left:188px;
 }
-#rd:hover #fast ul{
-    display: block;
-    position: absolute;
-    top: 20px;
-    left:188px;
+.dropdown:hover{
+    background-color: black;
 }
-#th:hover #golmaal ul{
+#type1:hover #page1{
     display: block;
-    position: absolute;
-    top: 20px;
-    left:188px;
+}
+#type2:hover #page2{
+    display: block;
+}
+#type3:hover #page3{
+    display: block;
+}
+#type4:hover #page4{
+    display: block;
+}
+.content li:hover{
+    background-color: black;
+    width:250px ;
 }

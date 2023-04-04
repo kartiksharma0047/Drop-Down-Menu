@@ -10,90 +10,69 @@
     </head>
     <body>
         <header>
-            <h1>Dropdown Menu</h1>
-            <ul id="drop">
+            <h1>DropDown Menu</h1>
+            <ul id="menu">
                 <li class="click"><a href="#">Home</a></li>
-                <li id="movies" class="click">
-                    <a href="#">
-                    <p>Movies<i class="fa-solid fa-chevron-down"></i></p>
-                    <div id="down">
-                        <ul>
-                            <li id="st">
-                                <a href="#">
-                                <p>John Wick<i class="fa-solid fa-chevron-right"></i></p>
-                                <div id="john" class="content">
-                                    <ul>
-                                        <li>John Wick 1</li>
-                                        <li>John Wick 2</li>
-                                        <li>John Wick 3</li>
-                                        <li>John Wick 4</li>
-                                    </ul>
-                                </a>
-                                </div>
-                            </li>
-                            <li  id="nd">
-                                <a href="#">
-                                <p>Harry Potter<i class="fa-solid fa-chevron-right"></i></p>
-                                <div id="harry" class="content">
-                                    <ul>
-                                        <li>Harry Potter and the
-                                            Philosopher's Stone</li>
-                                        <li>Harry Potter and the
-                                            Chamber of Secrets</li>
-                                        <li>Harry Potter and the
-                                            Prisoner of Azkaban</li>
-                                        <li>Harry Potter and the
-                                            Goblet of Fire</li>
-                                        <li>Harry Potter and the
-                                            Order of the Phoenix</li>
-                                        <li>Harry Potter and the
-                                            Half-Blood Prince</li>
-                                        <li>Harry Potter and the
-                                            Deathly Hallows – Part 1</li>
-                                        <li>Harry Potter and the
-                                            Deathly Hallows – Part 2</li>        
-                                    </ul>
-                                </div>
-                                </a>
-                            </li>
-                            <li id="rd">
-                                <a href="#">
-                                <p>Fast & the Furious<i class="fa-solid fa-chevron-right"></i></p>
-                                <div id="fast" class="content">
-                                    <ul>
-                                        <li>The Fast and the Furious</li>
-                                        <li>2 Fast 2 Furious</li>
-                                        <li>The Fast and the Furious: Tokyo Drift</li>
-                                        <li>Fast & Furious</li>
-                                        <li>Fast Five</li>
-                                        <li>Fast & Furious 6</li>
-                                        <li>Furious 7</li>
-                                        <li>The Fate of the Furious</li>
-                                        <li>F9</li>
-                                        <li>Fast X</li>
-                                    </ul>
-                                </div>
-                                </a>
-                            </li>
-                            <li id="th">
-                                <a href="#">
-                                <p>Golmaal<i class="fa-solid fa-chevron-right"></i></p>
-                                <div id="golmaal" class="content">
-                                    <ul>
-                                        <li>Golmaal: Fun Unlimited</li>
-                                        <li>Golmaal Returns</li>
-                                        <li>Golmaal 3</li>
-                                        <li>Golmaal Again!!!</li>
-                                        <li>Cirkus</li>
-                                        <li>Golmaal Aaye Na</li>
-                                    </ul>
-                                </div>
-                                </a>
-                            </li>
-                        </ul>
-                        
-                    </div>
-                    </a>
+                <li class="click" id="dropdown1">
+                    <a href="#">Movies<i class="fa-solid fa-chevron-down"></i></a>
+                    <ul id="drop">
+                        <li id="type1" class="dropdown">
+                            <a href="#">John Wick</a>
+                            <ul id="page1" class="content">
+                                <li><a href="#">John Wick 1</a></li>
+                                <li><a href="#">John Wick 2</a></li>
+                                <li><a href="#">John Wick 3</a></li>
+                                <li><a href="#">John Wick 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="type2">
+                            <a href="#">Harry Potter</a>
+                            <ul id="page2" class="content">
+                                <li><a href="#">Harry Potter and the
+                                    Philosopher's Stone</a></li>
+                                <li><a href="#">Harry Potter and the
+                                    Chamber of Secrets</a></li>
+                                <li><a href="#">Harry Potter and the
+                                    Prisoner of Azkaban</a></li>
+                                <li><a href="#">Harry Potter and the
+                                    Goblet of Fire</a></li>
+                                <li><a href="#">Harry Potter and the
+                                    Order of the Phoenix</a></li>
+                                <li><a href="#">Harry Potter and the
+                                    Half-Blood Prince</a></li>
+                                <li><a href="#">Harry Potter and the
+                                    Deathly Hallows – Part 1</a></li>
+                                <li><a href="#">Harry Potter and the
+                                    Deathly Hallows – Part 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"  id="type3">
+                            <a href="#">Fast & the Furious</a>
+                            <ul id="page3" class="content">
+                                <li><a href="#">The Fast and the Furious</a></li>
+                                <li><a href="#">2 Fast 2 Furious</a></li>
+                                <li><a href="#">The Fast and the Furious: Tokyo Drift</a></li>
+                                <li><a href="#">Fast & Furious</a></li>
+                                <li><a href="#">Fast Five</a></li>
+                                <li><a href="#">Fast & Furious 6</a></li>
+                                <li><a href="#">Furious 7</a></li>
+                                <li><a href="#">The Fate of the Furious</a></li>
+                                <li><a href="#">F9</a></li>
+                                <li><a href="#">Fast X</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="type4">
+                            <a href="#">Golmaal</a>
+                            <ul id="page4" class="content">
+                                <li><a href="#">Golmaal: Fun Unlimited (2006)</a></li>
+                                <li><a href="#">Golmaal Returns</a></li>
+                                <li><a href="#">Golmaal 3</a></li>
+                                <li><a href="#">Golmaal Again!!!</a></li>
+                                <li><a href="#">Cirkus</a></li>
+                                <li><a href="#">Golmaal Aaye Na</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li class="click"><a href="#">Fees</a></li>
                 <li class="click"><a href="#">Appointment</a></li>
